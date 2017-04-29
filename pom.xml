@@ -29,7 +29,7 @@
  </repository>
     <!-- Publish the versioned releases here -->
  <snapshotRepository>
-  <id>nexus</id>
+  <id>nexus_public</id>
   <name>nexus</name>
   <url>http://54.244.161.78:8081/repository/maven-public/</url>
  </snapshotRepository>
