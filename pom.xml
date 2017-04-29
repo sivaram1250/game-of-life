@@ -23,15 +23,15 @@
 <distributionManagement>
  <!-- Publish the versioned releases here -->
  <repository>
-  <id>nexus</id>
+  <id>maven-releases</id>
   <name>nexus</name>
   <url>http://54.244.161.78:8081/repository/maven-releases/</url>
  </repository>
     <!-- Publish the versioned releases here -->
  <snapshotRepository>
-  <id>nexus_public</id>
+  <id>maven-snapshots</id>
   <name>nexus</name>
-  <url>http://54.244.161.78:8081/repository/maven-public/</url>
+  <url>http://54.244.161.78:8081/repository/maven-snapshots/</url>
  </snapshotRepository>
 </distributionManagement>
     <scm>
