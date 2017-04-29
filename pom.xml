@@ -20,7 +20,20 @@
         <jelastic.context>gameoflife</jelastic.context>
         <jelastic.environment>wakaleo</jelastic.environment>
     </properties>
-
+<distributionManagement>
+ <!-- Publish the versioned releases here -->
+ <repository>
+  <id>nexus</id>
+  <name>nexus</name>
+  <url>http://54.244.161.78:8081/repository/maven-releases/</url>
+ </repository>
+    <!-- Publish the versioned releases here -->
+ <snapshotRepository>
+  <id>nexus</id>
+  <name>nexus</name>
+  <url>http://54.244.161.78:8081/repository/maven-public/</url>
+ </snapshotRepository>
+</distributionManagement>
     <scm>
         <connection>scm:git:git@github.com:${github.account}/game-of-life.git</connection>
         <developerConnection>scm:git:git@github.com:${github.account}/game-of-life.git</developerConnection>
